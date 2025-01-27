@@ -4,7 +4,7 @@
 #https://console.cloud.google.com/apis
 
 import pandas as pd
-from openpyxl import Workbook
+from openpyxl import Workbook  
 #import requests
 #import json
 from googleapiclient.discovery import build
@@ -30,7 +30,7 @@ sheet.append(["Pesquisa", "Option1", "Option2", "Option3", "Option4", "Option5"]
 
 check = 0
 
-api_key = 'AIzaSyDbg6s4DzV64gzPkN6gd06sgves2YdlU90'
+api_key = 'ApiKey'
 
 youtube = build('youtube', 'v3', developerKey=api_key)
 
